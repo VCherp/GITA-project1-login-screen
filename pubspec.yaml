@@ -1,0 +1,31 @@
+name: gita
+description: "Instagram login screen. Project 1."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  flutter_svg: ^2.0.9
+  google_fonts: ^4.0.4
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/vector/Instagram_logo.svg
+
